@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@deno/mod.js';
+import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@v0.0.8-deno/mod.js';
 ```
 
 #### PI
@@ -56,7 +56,7 @@ var bool = ( PI === 3.141592653589793 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@deno/mod.js';
+import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@v0.0.8-deno/mod.js';
 
 console.log( PI );
 // => 3.141592653589793
