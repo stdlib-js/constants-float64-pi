@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-pi/tags). For example,
+
+```javascript
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@v0.1.0-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = ( PI === 3.141592653589793 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@v0.1.0-deno/mod.js';
+import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@deno/mod.js';
 
 console.log( PI );
 // => 3.141592653589793
